@@ -21,10 +21,15 @@ location: chongqing
   display: inline-flex;
 }
 ```
-**注意** webkit内核的浏览器必须加上-webkit前缀 .box { display: -webkit-flex;}
+**注意** webkit内核的浏览器必须加上-webkit前缀 
+```css
+.box {
+  display: -webkit-flex;
+}
+```
 
 ## 概念
-采用flex布局的元素，称为flex容器，他的所有子元素自动成为容器成员，称为flex项目，简称项目
+采用flex布局的元素，称为flex容器，他的所有子元素自动成为容器成员，称为flex项目，简称项目。
 
 ## 容器的属性
 **flex-direction** 决定项目排列方向，取值：
